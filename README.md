@@ -46,7 +46,8 @@ ip a
     detect_server.py
     live_capture.py
     train_rf.py
-    RT_IOT2022_processed.csv
+    data/
+       RT_IOT2022_processed.csv
     models/
     requirements.txt
 ```
