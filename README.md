@@ -2,7 +2,7 @@
 
 This project sets up a **mini red-vs-blue lab**:
 
-- **Attacker VM** (Kali): launches network attacks (SYN flood, Nmap scans, etc.).
+- **Attacker VM** (Kali): launches network attacks (SYN flood, Nmap scans, etc.). only need random_atttacks.sh
 - **Victim VM** (Ubuntu 22.04): runs a **real-time intrusion detector**.
 - The detector uses a **Random Forest model** trained on the **RT_IOT2022_processed.csv** dataset to predict the **attack type** for each network flow in real time.
 
